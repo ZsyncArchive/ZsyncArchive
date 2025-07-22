@@ -1,0 +1,1 @@
+zsyncmake -u https://cdimage.ubuntu.com/releases/24.04/release/ubuntu-24.04-desktop-amd64.iso ubuntu-24.04-desktop-amd64.iso
