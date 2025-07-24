@@ -1,1 +1,5 @@
+# Ignore only files ending in .iso
 *.iso
+
+# Re-include directories ending in .iso (if any)
+!*.iso/
