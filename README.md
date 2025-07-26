@@ -1,3 +1,6 @@
+#⚠️this is a work in prograss repository⚠️
+
+
 # ZsyncArchive
 
 This is a public repository for hosting `.zsync` metadata files for ISO images and other large files to enable resumable and bandwidth-efficient downloads.
