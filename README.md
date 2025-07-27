@@ -16,6 +16,9 @@ zsync is a command-line tool that allows differential downloading: it compares a
 ## Usage
 
 1. **Install zsync**
+   
    Debian/Ubuntu: `sudo apt install zsync`  
+
    Arch Linux: `sudo pacman -S zsync`
+
    fedora: `sudo dnf install zsync`
