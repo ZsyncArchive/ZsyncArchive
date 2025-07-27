@@ -1,3 +1,6 @@
+# ⚠️this is a work in prograss repository⚠️
+
+
 # ZsyncArchive
 
 This is a public repository for hosting `.zsync` metadata files for ISO images and other large files to enable resumable and bandwidth-efficient downloads.
@@ -13,5 +16,9 @@ zsync is a command-line tool that allows differential downloading: it compares a
 ## Usage
 
 1. **Install zsync**
+   
    Debian/Ubuntu: `sudo apt install zsync`  
+
    Arch Linux: `sudo pacman -S zsync`
+
+   fedora: `sudo dnf install zsync`
