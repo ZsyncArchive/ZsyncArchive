@@ -25,17 +25,14 @@ zsync is a command-line tool that allows differential downloading: it compares a
 
    ```bash 
    # Clone the repository
-   
-   git clone https://github.com/probonopd/zsync-curl.git 
+    git clone https://github.com/probonopd/zsync-curl.git 
 
    cd zsync-curl 
 
-   # Build the project 
-
+   # Build the project
    cmake -B build 
 
    cmake --build build 
 
    # Install
-
    sudo cmake --install build ```
