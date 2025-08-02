@@ -17,8 +17,18 @@ zsync is a command-line tool that allows differential downloading: it compares a
 
 1. **Install zsync**
    
-   Debian/Ubuntu: `sudo apt install zsync`  
+   THE NORMAL `zsync`, `zsync2` WILL NOT WORK ONLY `zsync-curl` will work
+   
+   *atleast for most cases*
+   
+   check out zsync-curl [here](https://github.com/probonopd/zsync-curl.git)
 
-   Arch Linux: `sudo pacman -S zsync`
-
-   fedora: `sudo dnf install zsync`
+   ```bash 
+   # Clone the repository
+   git clone https://github.com/probonopd/zsync-curl.git 
+   cd zsync-curl 
+   # Build the project 
+   cmake -B build 
+   cmake --build build 
+   # Install
+   sudo cmake --install build ```
